@@ -1,0 +1,108 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+.logo{
+    color: white;
+    font-size: 40px;
+    margin-left: 20px;
+    font-family: serif;
+}
+span{
+    color: #ea1538;
+}
+.navs ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    
+}
+.navs ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: cursive;
+    margin-left: 5px;
+}
+.navs ul li a:hover{
+    color:#ea1538;
+    transition: .2s;
+}
+.welcome-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tattoo-artist {
+    width: 20%;
+}
+.tattoo-artist h2{
+    color:  #ea1538;
+    margin-left: 40%;
+}
+
+.tattoo-artist img{
+    width: 100%;
+    border-radius: 50%;
+    margin-top: 30%;
+    margin-left: 20%;
+}
+.tattooed-person img{
+    width: 94%;
+    height: 100%;
+    
+    
+}
+.welcome-text {
+    width: 50%;
+}
+
+.welcome-text h1 {
+    font-size: 36px;
+    margin-left: 15%;
+    margin-bottom: 20px;
+    color: #D4AF37;
+    font-weight: bold;
+}
+
+.welcome-text p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-left: 15%;
+    color: white;
+}
+
+.welcome-text button {
+    background-color: #ffcc00;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 15%;
+    cursor: pointer;
+    font-size: 16px;
+    color: #111;
+   transition: 0.5s;
+}
+
+.welcome-text button:hover {
+    background-color: #000000;
+    color: aliceblue;
+}
